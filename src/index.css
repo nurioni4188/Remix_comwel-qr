@@ -52,3 +52,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #BFA081;
 }
+/* 모바일: 네비 숨김 */
+@media (max-width: 671px) {
+  .desktop-nav { display: none !important; }
+}
