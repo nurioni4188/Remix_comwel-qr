@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@400;500;700;900&display=swap');
+i@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@400;500;700;900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -57,3 +57,7 @@ body {
   .desktop-nav { display: none !important; }
 }
 body { overflow-x: hidden; }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
