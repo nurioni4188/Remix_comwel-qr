@@ -56,3 +56,4 @@ body {
 @media (max-width: 671px) {
   .desktop-nav { display: none !important; }
 }
+body { overflow-x: hidden; }
